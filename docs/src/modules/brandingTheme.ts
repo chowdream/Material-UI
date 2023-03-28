@@ -79,17 +79,17 @@ export const blue = {
   900: '#003A75',
 };
 export const blueDark = {
-  50: '#E2EDF8',
-  100: '#CEE0F3',
-  200: '#91B9E3',
-  300: '#5090D3',
-  main: '#5090D3',
-  400: '#265D97',
-  500: '#1E4976',
-  600: '#173A5E',
-  700: '#132F4C', // contrast 13.64:1
-  800: '#001E3C',
-  900: '#0A1929',
+  50: '#EAEDF1',
+  100: '#DAE0E7',
+  200: '#ACBAC8',
+  300: '#7B91A7',
+  main: '#7B91A7',
+  400: '#4B5E71',
+  500: '#3B4A59',
+  600: '#2F3A46',
+  700: '#1F262E', // contrast 13.64:1
+  800: '#141A1F',
+  900: '#101418',
 };
 export const grey = {
   50: '#F3F6F9',
@@ -183,7 +183,7 @@ export const getDesignTokens = (mode: 'light' | 'dark') =>
         },
       }),
       common: {
-        black: '#1D1D1D',
+        black: '#0B0D0E',
       },
       text: {
         ...(mode === 'light' && {
