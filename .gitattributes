@@ -10,3 +10,6 @@ packages/mui-icons-material/material-icons/** linguist-generated
 packages/mui-icons-material/legacy/** linguist-vendored
 # bundling fixtures
 test/bundling/scripts/packages.js linguist-generated
+*.html linguist-detectable=false
+*.js linguist-detectable=false
+*.ts linguist-detectable=false
