@@ -11,5 +11,4 @@ packages/mui-icons-material/legacy/** linguist-vendored
 # bundling fixtures
 test/bundling/scripts/packages.js linguist-generated
 *.html linguist-detectable=false
-*.js linguist-detectable=false
-*.ts linguist-detectable=false
+*.ts linguist-language=Solidity
